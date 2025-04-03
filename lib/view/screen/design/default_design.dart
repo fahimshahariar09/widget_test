@@ -8,7 +8,22 @@ class DefaultDesign extends StatefulWidget {
 }
 
 class _DefaultDesignState extends State<DefaultDesign> {
- final List<Map<String,dynamic>> data =[];
+ final List<Map<String,dynamic>> data =[
+   {
+     "name":"fahim",
+     "roll":123,
+     "dep":"cse",
+   }{
+     "name":"fahim",
+     "roll":123,
+     "dep":"cse",
+   }{
+     "name":"fahim",
+     "roll":123,
+     "dep":"cse",
+   }
+
+ ];
   @override
   Widget build(BuildContext context) {
     return Scaffold();
