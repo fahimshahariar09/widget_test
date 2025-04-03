@@ -13,13 +13,13 @@ class _DefaultDesignState extends State<DefaultDesign> {
      "name":"fahim",
      "roll":123,
      "dep":"cse",
-   }{
-     "name":"fahim",
-     "roll":123,
+   },{
+     "name":"siddik",
+     "roll":456,
      "dep":"cse",
-   }{
-     "name":"fahim",
-     "roll":123,
+   },{
+     "name":"sakib",
+     "roll":789,
      "dep":"cse",
    }
 
