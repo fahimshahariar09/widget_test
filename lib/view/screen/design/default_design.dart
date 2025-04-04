@@ -23,7 +23,8 @@ class _DefaultDesignState extends State<DefaultDesign> {
       "name": "sakib",
       "roll": 789,
       "dep": "cse",
-    },{
+    },
+    {
       "name": "milon",
       "roll": 456,
       "dep": "cse",
@@ -42,7 +43,12 @@ class _DefaultDesignState extends State<DefaultDesign> {
       ),
       body: Column(
         children: [
-          GridView.builder(gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(crossAxisCount: 2), itemBuilder: (index,context){})
+          GridView.builder(
+              gridDelegate:
+                  SliverGridDelegateWithFixedCrossAxisCount(crossAxisCount: 2),
+              itemBuilder: (index, context) {
+                return ;
+              })
         ],
       ),
     );
