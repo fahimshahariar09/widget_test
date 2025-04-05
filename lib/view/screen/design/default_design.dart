@@ -52,6 +52,8 @@ class _DefaultDesignState extends State<DefaultDesign> {
                 return Column(
                   children: [
                     Text(""),
+                    Text(""),
+                    Text(""),
                   ],
                 );
               })
