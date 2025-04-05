@@ -44,10 +44,15 @@ class _DefaultDesignState extends State<DefaultDesign> {
       body: Column(
         children: [
           GridView.builder(
+            itemCount: data.length,
               gridDelegate:
                   SliverGridDelegateWithFixedCrossAxisCount(crossAxisCount: 2),
               itemBuilder: (index, context) {
-                return ;
+                return Column(
+                  children: [
+                    Text(""),
+                  ],
+                );
               })
         ],
       ),
