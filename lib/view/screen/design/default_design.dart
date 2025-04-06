@@ -57,15 +57,7 @@ class _DefaultDesignState extends State<DefaultDesign> {
                     Text(""),
                     Text(""),Text(""),
                     Text(""),
-                    Text(""), Text(""),Text(""),
-                    Text(""),
-                    Text(""),Text(""),
-                    Text(""),
-                    Text(""), Text(""),Text(""),
-                    Text(""),
-                    Text(""),Text(""),
-                    Text(""),
-                    Text(""),
+
                   ],
                 );
               })
