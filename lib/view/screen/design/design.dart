@@ -14,7 +14,14 @@ class _DesignState extends State<Design> {
       appBar: AppBar(
         title: Text("Design"),
       ),
+      body: Padding(
+        padding: const EdgeInsets.symmetric(horizontal: 10),
+        child: Column(
+          children: [
 
+          ],
+        ),
+      ),
     );
   }
 }
