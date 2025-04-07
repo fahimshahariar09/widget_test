@@ -17,9 +17,7 @@ class _DesignState extends State<Design> {
       body: Padding(
         padding: const EdgeInsets.symmetric(horizontal: 10),
         child: Column(
-          children: [
-
-          ],
+          children: [],
         ),
       ),
     );
