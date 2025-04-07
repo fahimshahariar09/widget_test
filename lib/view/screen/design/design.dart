@@ -10,6 +10,11 @@ class Design extends StatefulWidget {
 class _DesignState extends State<Design> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold();
+    return Scaffold(
+      appBar: AppBar(
+        title: Text("Design"),
+      ),
+
+    );
   }
 }
