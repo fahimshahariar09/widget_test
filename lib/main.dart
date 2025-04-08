@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:widget/view/screen/design/default_design.dart';
+import 'package:widget/view/screen/design/design.dart';
 
 void main() {
   runApp(const MyApp());
@@ -12,7 +13,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: DefaultDesign(),
+      home: Design(),
     );
   }
 }

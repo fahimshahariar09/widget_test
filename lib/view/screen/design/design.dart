@@ -21,6 +21,9 @@ class _DesignState extends State<Design> {
             return ListTile(
               title: Text("Fahim"),
               subtitle: Text("App"),
+              leading: CircleAvatar(
+                radius: 25,
+              ),
             );
           })],
         ),
