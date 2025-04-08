@@ -17,9 +17,11 @@ class _DesignState extends State<Design> {
       body: Padding(
         padding: const EdgeInsets.symmetric(horizontal: 10),
         child: Column(
-          children: [
-            ListView.builder(itemBuilder: (context,index){})
-          ],
+          children: [ListView.builder(itemBuilder: (context, index) {
+            return ListTile(
+              title: Text("data"),
+            );
+          })],
         ),
       ),
     );
