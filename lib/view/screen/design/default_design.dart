@@ -53,14 +53,17 @@ class _DefaultDesignState extends State<DefaultDesign> {
                   children: [
                     Text(""),
                     Text(""),
-  Text(""),
                     Text(""),
-  Text(""),
                     Text(""),
-  Text(""),
                     Text(""),
-
-
+                    Text(""),
+                    Text(""),
+                    Text(""), Text(""),
+                    Text(""),
+                    Text(""),
+                    Text(""),
+                    Text(""),
+                    Text(""),
                   ],
                 );
               })
