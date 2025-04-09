@@ -16,17 +16,15 @@ class _DesignState extends State<Design> {
       ),
       body: Padding(
         padding: const EdgeInsets.symmetric(horizontal: 10),
-        child: Column(
-          children: [ListView.builder(itemBuilder: (context, index) {
-            return ListTile(
-              title: Text("Fahim"),
-              subtitle: Text("App"),
-              leading: CircleAvatar(
-                radius: 25,
-              ),
-            );
-          })],
-        ),
+        child: ListView.builder(itemBuilder: (context, index) {
+          return ListTile(
+            title: Text("Fahim"),
+            subtitle: Text("App"),
+            leading: CircleAvatar(
+              radius: 25,
+            ),
+          );
+        }),
       ),
     );
   }
