@@ -29,7 +29,7 @@ class _DesignState extends State<Design> {
         child: ListView.builder(itemBuilder: (context, index) {
           return ListTile(
             title: Text(data[index]['name'].toString()),
-            subtitle: Text("App"),
+            subtitle: Text(data[index]['roll'].toString()),
             leading: CircleAvatar(
               radius: 25,
             ),
