@@ -28,7 +28,7 @@ class _DesignState extends State<Design> {
         padding: const EdgeInsets.symmetric(horizontal: 10),
         child: ListView.builder(itemBuilder: (context, index) {
           return ListTile(
-            title: Text("Fahim"),
+            title: Text(data[index]['name'].toString()),
             subtitle: Text("App"),
             leading: CircleAvatar(
               radius: 25,
