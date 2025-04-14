@@ -39,9 +39,7 @@ class _DefaultDesignState extends State<DefaultDesign> {
                     Text(data[index]["dep"].toString()),
                     Text(data[index]["roll"].toString()),Text(data[index]["name"].toString()),
                     Text(data[index]["dep"].toString()),
-                    Text(data[index]["roll"].toString()),Text(data[index]["name"].toString()),
-                    Text(data[index]["dep"].toString()),
-                    Text(data[index]["roll"].toString()),
+
                   ],
                 ),
               ),
