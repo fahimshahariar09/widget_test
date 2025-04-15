@@ -12,10 +12,15 @@ class _DefaultDesignState extends State<DefaultDesign> {
     {"name": "fahim", "roll": 123, "dep": "cse"},
     {"name": "siddik", "roll": 456, "dep": "cse"},
     {"name": "sakib", "roll": 789, "dep": "cse"},
-    {"name": "milon", "roll": 456, "dep": "cse"},{"name": "fahim", "roll": 123, "dep": "cse"},
-    {"name": "siddik", "roll": 456, "dep": "cse"},
+    {"name": "milon", "roll": 456, "dep": "cse"}{"name": "siddik", "roll": 456, "dep": "cse"},
     {"name": "sakib", "roll": 789, "dep": "cse"},
-    {"name": "milon", "roll": 456, "dep": "cse"},
+    {"name": "milon", "roll": 456, "dep": "cse"}{"name": "siddik", "roll": 456, "dep": "cse"},
+    {"name": "sakib", "roll": 789, "dep": "cse"},
+    {"name": "milon", "roll": 456, "dep": "cse"}{"name": "siddik", "roll": 456, "dep": "cse"},
+    {"name": "sakib", "roll": 789, "dep": "cse"},
+    {"name": "milon", "roll": 456, "dep": "cse"}{"name": "siddik", "roll": 456, "dep": "cse"},
+    {"name": "sakib", "roll": 789, "dep": "cse"},
+    {"name": "milon", "roll": 456, "dep": "cse"}
   ];
   @override
   Widget build(BuildContext context) {
@@ -41,7 +46,6 @@ class _DefaultDesignState extends State<DefaultDesign> {
                     Text(data[index]["name"].toString()),
                     Text(data[index]["dep"].toString()),
                     Text(data[index]["roll"].toString())
-
                   ],
                 ),
               ),
