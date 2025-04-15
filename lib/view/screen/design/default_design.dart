@@ -16,10 +16,6 @@ class _DefaultDesignState extends State<DefaultDesign> {
     {"name": "sakib", "roll": 789, "dep": "cse"},
     {"name": "milon", "roll": 456, "dep": "cse"}{"name": "siddik", "roll": 456, "dep": "cse"},
     {"name": "sakib", "roll": 789, "dep": "cse"},
-    {"name": "milon", "roll": 456, "dep": "cse"}{"name": "siddik", "roll": 456, "dep": "cse"},
-    {"name": "sakib", "roll": 789, "dep": "cse"},
-    {"name": "milon", "roll": 456, "dep": "cse"}{"name": "siddik", "roll": 456, "dep": "cse"},
-    {"name": "sakib", "roll": 789, "dep": "cse"},
     {"name": "milon", "roll": 456, "dep": "cse"}
   ];
   @override
