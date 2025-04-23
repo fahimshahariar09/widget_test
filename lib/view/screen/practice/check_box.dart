@@ -13,6 +13,7 @@ class _CheckBoxState extends State<CheckBox> {
     return Scaffold(
       appBar: AppBar(
         title: Text("Calender"),
+        centerTitle: true,
       ),
       body: Column(
         children: [
