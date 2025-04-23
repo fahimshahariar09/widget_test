@@ -10,6 +10,10 @@ class CheckBox extends StatefulWidget {
 class _CheckBoxState extends State<CheckBox> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold();
+    return Scaffold(
+      appBar: AppBar(
+        title: Text("Calender"),
+      ),
+    );
   }
 }
