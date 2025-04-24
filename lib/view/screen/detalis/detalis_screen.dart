@@ -78,12 +78,6 @@ class TaskDetailsScreen extends StatelessWidget {
                         fontWeight: FontWeight.bold,
                         fontSize: 14,
                       ),
-                    ), Text(
-                      'Description',
-                      style: TextStyle(
-                        fontWeight: FontWeight.bold,
-                        fontSize: 14,
-                      ),
                     ),
                     SizedBox(height: 10),
                     // Description Text
